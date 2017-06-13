@@ -1,2 +1,6 @@
 # learning-make-find
-This exists just to save my work as I try to figure how to use CMake's find_package
+Clone this repository with 
+```bash
+git clone --recursive https://github.com/jedbrown/cmake-modules.git
+```
+to also get the cmake-modules submodule on which this repository depends.
