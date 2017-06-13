@@ -1,4 +1,4 @@
-# learning-make-find
+# learning-cmake-find
 Clone this repository with 
 ```bash
 git clone --recursive https://github.com/jedbrown/cmake-modules.git
