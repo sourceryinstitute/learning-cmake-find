@@ -6,11 +6,7 @@ project(build_against_netcdf LANGUAGES Fortran)
 include(cmake-modules/FindNetCDF.cmake)
 
 set (NETCDF_F90 "YES") # Require Fortran interfaces to be FOUND
-find_package (NetCDF QUIET)
-
-if ( NOT NetCDF_DIR )
-  find_package (netCDF REQUIRED)
-endif()
+find_package (netCDF REQUIRED) # Capitalization matters!
 
 include_directories(${NETCDF_INCLUDES})
 
